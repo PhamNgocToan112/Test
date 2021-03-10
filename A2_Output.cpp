@@ -8,7 +8,7 @@ int main()
 	for (int i = 0;i < b ;i++) 
 	{
 		cin >> c;
-		if (a == c) cout << i + 1 << " ";
+		if (a == c) cout << c << " ";
 	}
 	return 0;	
 }
