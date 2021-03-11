@@ -1,14 +1,21 @@
 #include <iostream>
 using namespace std;
 int main()
-{
-	int a, b, c;
-	cin >> a >> b;
-	
-	for (int i = 0;i < b ;i++) 
-	{
-		cin >> c;
-		if (a == c) cout << c << " ";
-	}
-	return 0;	
+{int a;
+cin >> a; 
+int n;
+cin >> n;
+
+
+int arr[n];
+
+for(int i = 0; i < n; i++){
+	cin >> arr[i];
+}
+for(int i = 0; i < n; i++){
+	if(a == arr[i])cout << a;
+}
+
+
+return 0;
 }
